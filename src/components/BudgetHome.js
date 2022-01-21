@@ -10,7 +10,7 @@ function BudgetHome() {
     axios
       .get(`${URL}/transactions`)
       .then((response) => setBudgets(response.data));
-  }, []);
+  }, [URL]);
 
   return (
     <div className="budget-index">

@@ -13,7 +13,7 @@ function BudgetDetails() {
     axios
       .get(`${URL}/transactions/${index}`)
       .then((response) => setBudget(response.data));
-  }, []);
+  }, [URL, index]);
 
   const handleDelete = () => {
     axios.delete(`${URL}/transactions/${index}`)

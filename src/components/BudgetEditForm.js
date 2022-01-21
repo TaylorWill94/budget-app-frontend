@@ -25,7 +25,7 @@ function BudgetEditForm() {
       .get(`${URL}/transactions/${index}`)
       .then((response) => setEditBudget(response.data));
     //   console.log(setEditBudget)
-  }, []);
+  }, [URL, index]);
 
   const handleSubmit = (event) => {
     event.preventDefault();
