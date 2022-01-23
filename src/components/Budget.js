@@ -5,8 +5,11 @@ function Budget({ budget, index }) {
     <tr className="budget">
       <td>{budget.date}</td>
       <td>
-        <Link className="budget-item-link" to={`/transactions/${index}`}>{budget.item_name}</Link>
+        <Link className="budget-item-link" to={`/transactions/${index}`}>
+          {budget.item_name}
+        </Link>
       </td>
+      <td>{budget.category}</td>
       <td>{budget.amount}</td>
       <td>
         <Link to={`/transactions/${index}/edit`}>

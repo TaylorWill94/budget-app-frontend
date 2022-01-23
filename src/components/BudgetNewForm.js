@@ -88,7 +88,7 @@ function BudgetNewForm() {
           type="text"
           value={newBudget.from}
           onChange={handleChange}
-          placeholder="Date"
+          placeholder="From"
         />
         <br />
         <input className="submit-btn" type="submit" />
