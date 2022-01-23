@@ -821,8 +821,17 @@
         grid-column: 2;
         text-align: center;
         padding-top: 10%;
-        font-size: 16px;
+        font-size: 20px;
       }
+
+      .begin {
+          transition-duration: 0.4s;
+      }
+
+      .begin:hover {
+          background: white;
+      }
+
       .budget-index {
         padding: 20%;
         width: 100%;
