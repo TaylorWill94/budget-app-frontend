@@ -26,11 +26,11 @@
   .nav {
     grid-column: 1 / 4;
     text-align: center;
-    background: pink;
+    background: pink
   }
   .app-name {
       background: pink;
-      font-size: 34px;
+      font-size: 36px;
   }
   .nav-items {
     background: pink;
