@@ -65,7 +65,7 @@ function BudgetNewForm() {
           type="text"
           value={newBudget.date}
           onChange={handleChange}
-          placeholder="Date"
+          placeholder="January 23rd, 2022"
         />
         <br />
         <label htmlFor="amount">

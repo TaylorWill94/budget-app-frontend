@@ -10,8 +10,9 @@ function Budget({ budget, index }) {
         </Link>
       </td>
       <td>{budget.category}</td>
-      <td>{budget.amount}</td>
+      <td>${budget.amount}</td>
       <td>
+        <br />
         <Link to={`/transactions/${index}/edit`}>
           <button className="edit-budget-btn">Edit</button>
         </Link>
