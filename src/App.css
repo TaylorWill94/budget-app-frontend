@@ -46,6 +46,10 @@
     font-size: 16px;
   }
 
+  .begin {
+      margin: 10px;
+  }
+
   /* BUDGET LIST TABLE */
 
   .budget-index {
@@ -176,6 +180,9 @@
         padding-top: 10%;
         font-size: 16px;
       }
+      .begin {
+          margin: 10px;
+      }
       .budget-index {
         padding: 10%;
         padding-top: 10%;
@@ -305,6 +312,9 @@
         padding-top: 10%;
         font-size: 16px;
       }
+      .begin {
+          margin: 10px;
+      }
       .budget-index {
         padding: 20%;
         padding-top: 10%;
@@ -433,6 +443,9 @@
         text-align: center;
         padding-top: 10%;
         font-size: 16px;
+      }
+      .begin {
+          margin: 10px;
       }
       .budget-index {
         padding: 20%;
@@ -564,6 +577,9 @@
         padding-top: 10%;
         font-size: 16px;
       }
+      .begin {
+          margin: 10px;
+      }
       .budget-index {
         padding: 25%;
         padding-top: 10%;
@@ -692,6 +708,9 @@
         text-align: center;
         padding-top: 10%;
         font-size: 16px;
+      }
+      .begin {
+          margin: 10px;
       }
       .budget-index {
         padding: 20%;
@@ -849,6 +868,12 @@
           padding: 10px;
           font-size: 30px;
       }
+      .budget-home-intro {
+          margin-bottom: 20px;
+      }
+      .bank-total {
+          margin-bottom: 20px;
+      }
       .budget-item-link {
           background-color: pink;
       }
@@ -932,3 +957,4 @@
          font-size: 20px;
      }
 }
+

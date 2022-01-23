@@ -14,6 +14,7 @@ function BudgetHome() {
 
   return (
     <div className="budget-index">
+      <h2 className="budget-home-intro">View your budget in one place.</h2>
       <h1 className="bank-total">
         Bank Account Total:
         {/* // Trying to add all budget amounts together to get a total */}
