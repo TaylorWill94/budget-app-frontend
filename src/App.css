@@ -35,7 +35,7 @@
   .app-name {
     background: pink;
     font-size: 36px;
-    margin-top: 10px;
+    margin-top: 20px;
   }
   .nav-items {
     background: pink;
@@ -44,6 +44,7 @@
     font-size: 18px;
     padding: 10px;
     margin-left: 10px;
+    border-radius: 12px;
   }
   .home {
     grid-column: 2;
@@ -61,12 +62,14 @@
 
   .begin {
       margin: 10px;
+      border-radius: 12px;
   }
 
   .budget-review {
       font-size: 18px;
       border: 2px solid rgb(0, 0, 0);
-      margin: 10px;
+      margin-left: 25px;
+      margin-right: 25px;
   }
 
   /* BUDGET LIST TABLE */
@@ -94,16 +97,29 @@
     padding: 10px;
   }
   .new-budget {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
     text-align: center;
     grid-column: 2;
     padding: 10px;
     padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
 
     /* margin: 25%;
       font-size: 16px; */
 
     /* EDIT FORM STYLING */
   }
+
+  .new-budget-header {
+      grid-column: 2;
+  }
+
+  .new-budget-form {
+      grid-column: 2;
+  }
+
   input {
     padding: 10px;
     margin: 10px;
@@ -113,10 +129,13 @@
     margin-top: 10px;
   }
   .edit-budget {
-    grid-column: 2;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
     text-align: center;
     padding: 10px;
     padding-top: 10%;
+    margin-left: 15%;
+    margin-right: 10px;
   }
 
   .back-btn {
@@ -125,6 +144,15 @@
   }
   .budget-edit-form-header {
     font-size: 34px;
+    grid-column: 2;
+  }
+
+  .budget-edit-info {
+      grid-column: 2;
+  }
+
+  .budget-edit-form {
+      grid-column: 2;
   }
 
   /* BUDGET DETAILS STYLING */

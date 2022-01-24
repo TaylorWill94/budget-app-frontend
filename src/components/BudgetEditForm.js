@@ -37,8 +37,8 @@ function BudgetEditForm() {
   return (
     <section className="edit-budget">
       <h1 className="budget-edit-form-header">Budget</h1>
-      <h2>Edit</h2>
-      <form onSubmit={handleSubmit}>
+      <h2 className="budget-edit-info">Edit</h2>
+      <form className="budget-edit-form" onSubmit={handleSubmit}>
         <label htmlFor="item_name">Item name:</label>
         <input
           id="item_name"
@@ -91,10 +91,10 @@ function BudgetEditForm() {
         />
         <br />
         <input type="submit" />
-      </form>
       <Link to={`/transactions`}>
         <button className="back-btn">Back</button>
       </Link>
+      </form>
     </section>
   );
 }
