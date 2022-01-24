@@ -22,6 +22,16 @@ const Home = () => {
           goals!
           <p>- Michael Scott</p>
         </article>
+        <br />
+        <article className="budget-review">
+        Budget Bae has saved my life
+          <p>- Pam Beasly</p>
+        </article>
+        <br />
+        <article className="budget-review">
+        Budget Bae has really kept me in check with my finances!
+          <p>- Steve Smith</p>
+        </article>
       </section>
     </div>
   );
