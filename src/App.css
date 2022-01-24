@@ -141,6 +141,7 @@
   .back-btn {
     padding: 10px;
     margin-bottom: 10px;
+    border-radius: 12px;
   }
   .budget-edit-form-header {
     font-size: 34px;
