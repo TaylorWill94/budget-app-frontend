@@ -15,6 +15,7 @@ const Home = () => {
       <Link to="/transactions">
         <button className="nav-items begin">Let's begin!</button>
       </Link>
+      <br />
      <img src={budget} width='200' alt={budget} />
       <br />
       <br />
