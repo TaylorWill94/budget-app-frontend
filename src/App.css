@@ -49,7 +49,15 @@
     grid-column: 2;
     text-align: center;
     padding-top: 10%;
-    font-size: 16px;
+    font-size: 18px;
+  }
+
+  .home-header {
+      font-size: 32px;
+  }
+
+  .home-desc {
+      font-size: 28px;
   }
 
   .begin {
