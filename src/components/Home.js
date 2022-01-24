@@ -14,6 +14,8 @@ const Home = () => {
       </Link>
       <br />
       <br />
+      <br />
+      <br />
       <h2>What people are saying about Budget Bae</h2>
       <br />
       <section>
