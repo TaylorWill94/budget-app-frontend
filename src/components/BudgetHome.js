@@ -24,7 +24,7 @@ function BudgetHome() {
 
   let total = budgets.map((budget) => budget.amount);
   // console.log(total);
-  let amount = total.reduce((prev, curr) => prev + curr, 0);
+  let amount = total.reduce((prev, curr) => Number(prev) + Number(curr), 0);
   console.log(amount);
 
 
