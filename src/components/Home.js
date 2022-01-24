@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import budget from './budget.png';
 
 const Home = () => {
   return (
@@ -12,11 +13,12 @@ const Home = () => {
       <Link to="/transactions">
         <button className="nav-items begin">Let's begin!</button>
       </Link>
+     <img src={budget} width='200' alt={budget} />
       <br />
       <br />
       <br />
       <br />
-      <h2>What people are saying about Budget Bae</h2>
+      <h2>What people are saying about Budget Bae ✨</h2>
       <br />
       <section>
         <article className="budget-review">
