@@ -8,10 +8,10 @@ const NavBar = () => {
         <button className="nav-items">Home</button>
       </Link>
       <Link to="/transactions">
-        <button className="nav-items">Transaction</button>
+        <button className="nav-items">View Budget</button>
       </Link>
       <Link to="/transactions/new">
-        <button className="nav-items">New Transaction</button>
+        <button className="nav-items">New Budget</button>
       </Link>
     </nav>
   );
