@@ -28,6 +28,9 @@
     text-align: center;
     background: pink;
     font-size: 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
   }
   .app-name {
     background: pink;
@@ -50,6 +53,11 @@
 
   .begin {
       margin: 10px;
+  }
+
+  .budget-review {
+      font-size: 18px;
+      border: 2px solid rgb(0, 0, 0);
   }
 
   /* BUDGET LIST TABLE */
@@ -962,7 +970,7 @@
          margin-bottom: 50px;
          text-align: center;
          position: static;
-         font-size: 20px;
+         font-size: 28px;
      }
 }
 

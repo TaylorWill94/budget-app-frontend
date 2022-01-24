@@ -12,6 +12,17 @@ const Home = () => {
       <Link to="/transactions">
         <button className="nav-items begin">Let's begin!</button>
       </Link>
+      <br />
+      <br />
+      <h2>What people are saying about Budget Bae</h2>
+      <br />
+      <section>
+        <article className="budget-review">
+          I love Budget Bae! It's easy to navigate and keeps me on track with my
+          goals!
+          <p>- Michael Scott</p>
+        </article>
+      </section>
     </div>
   );
 };
