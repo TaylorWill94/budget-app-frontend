@@ -28,17 +28,17 @@ function BudgetDetails() {
       <p className="budget-info">Amount: ${budget.amount}</p>
       <p className="budget-info">From: {budget.from}</p>
       <p className="budget-info">Category: {budget.category}</p>
-      <div>
+      <div className="budget-details-options">
           <Link to='/transactions'>
               <button className="back-details-btn">Back</button>
           </Link>
-      </div>
-      <div>
+     
+     
           <Link to={`/transactions/${index}/edit`}>
               <button className="edit-details-btn">Edit</button>
           </Link>
-      </div>
-      <div>
+     
+      
         <button className="delete-budget-btn" onClick={handleDelete}>Delete</button>
       </div>
     </section>
