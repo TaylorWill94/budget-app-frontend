@@ -98,7 +98,7 @@
   }
   .new-budget {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
     text-align: center;
     grid-column: 2;
     padding: 10px;
@@ -134,7 +134,7 @@
 
   .edit-budget {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
     grid-column: 2;
     text-align: center;
     padding: 10px;
