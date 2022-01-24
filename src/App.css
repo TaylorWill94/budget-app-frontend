@@ -27,6 +27,7 @@
     grid-column: 1 / 4;
     text-align: center;
     background: pink;
+    font-size: 0;
   }
   .app-name {
     background: pink;
@@ -38,6 +39,7 @@
     font-family: "Dongle", sans-serif;
     font-size: 18px;
     padding: 10px;
+    margin-left: 10px;
   }
   .home {
     grid-column: 2;
@@ -143,7 +145,7 @@
     grid-row: 3;
     grid-column: 2;
     padding-top: 10%;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     text-align: center;
     position: static;
     font-size: 20px;
@@ -161,7 +163,8 @@
       .nav {
         grid-column: 1 / 4;
         text-align: center;
-        background: pink
+        background: pink;
+        font-size: 0;
       }
       .app-name {
           background: pink;
@@ -170,6 +173,7 @@
       .nav-items {
         background: pink;
         margin-bottom: 10px;
+        margin-left: 10px;
         font-family: "Dongle", sans-serif;
         font-size: 18px;
         padding: 10px;
@@ -293,7 +297,8 @@
       .nav {
         grid-column: 1 / 4;
         text-align: center;
-        background: pink
+        background: pink;
+        font-size: 0;
       }
       .app-name {
           background: pink;
@@ -302,6 +307,7 @@
       .nav-items {
         background: pink;
         margin-bottom: 10px;
+        margin-left: 10px;
         font-family: "Dongle", sans-serif;
         font-size: 18px;
         padding: 10px;
@@ -425,7 +431,8 @@
       .nav {
         grid-column: 1 / 4;
         text-align: center;
-        background: pink
+        background: pink;
+        font-size: 0;
       }
       .app-name {
           background: pink;
@@ -434,6 +441,7 @@
       .nav-items {
         background: pink;
         margin-bottom: 10px;
+        margin-left: 10px;
         font-family: "Dongle", sans-serif;
         font-size: 18px;
         padding: 10px;
