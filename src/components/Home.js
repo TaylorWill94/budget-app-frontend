@@ -5,6 +5,7 @@ const Home = () => {
   return (
     <div className="home">
       <br />
+      <br />
       <h1 className="home-header">Welcome To Budget Bae</h1>
       <p className="home-desc">
         Budget Bae allows you to organize and track all your expenses in one
