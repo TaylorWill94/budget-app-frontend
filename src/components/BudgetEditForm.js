@@ -2,7 +2,7 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 import { Link, useParams, useNavigate } from "react-router-dom";
 
-console.log(process.env.REACT_APP_API_URL);
+
 
 function BudgetEditForm() {
   let { index } = useParams();

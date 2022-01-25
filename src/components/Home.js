@@ -14,7 +14,7 @@ const Home = () => {
       </p>
       <br />
       <br />
-      <Link to="/transactions">
+      <Link to="/transactions/new">
         <button className="nav-items begin">Let's begin!</button>
       </Link>
       <br />

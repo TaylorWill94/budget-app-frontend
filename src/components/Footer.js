@@ -7,7 +7,7 @@ const Footer = () => {
       <Link to="/">
         <p>Home</p>
       </Link>
-      <a href="https://www.linkedin.com/in/taylor-williams-a0683795/">
+      <a href="https://github.com/TaylorWill94/budget-app-frontend">
         <p>GitHub</p>
       </a>
     </footer>
