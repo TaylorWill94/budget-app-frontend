@@ -39,8 +39,8 @@ function Categories({ index }) {
   //   });
 
   return (
-    <section>
-      <h1>What's Cooking</h1>
+    <section className="new-budget">
+      <h1 className="food-header">What's Cooking 🍛</h1>
       <table className="budget-index">
         <tbody>{category}</tbody>
       </table>
