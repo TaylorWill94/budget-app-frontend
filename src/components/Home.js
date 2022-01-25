@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import budget from './budget.png';
+import preview from './preview.png';
 
 const Home = () => {
   return (
@@ -23,6 +24,7 @@ const Home = () => {
       <br />
       <br />
       <h2 className="budget-review-header">What people are saying about Budget Bae ✨</h2>
+      <br />
       <hr />
       <br />
       <br />
@@ -42,6 +44,15 @@ const Home = () => {
         Budget Bae has really kept me in check with my finances!
           <p>- Steve Smith</p>
         </article>
+        <br />
+        <br />
+        <br />
+        <h2 className="budget-review-header">Grow with Budget Bae ✨</h2>
+        <p className="home-desc">
+          Keep track of your finances while staying within budget.
+        </p>
+        <br />
+        <img src={preview} width='250' alt={preview} />
       </section>
     </div>
   );
