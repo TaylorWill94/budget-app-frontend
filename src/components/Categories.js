@@ -18,35 +18,31 @@ function Categories({ index }) {
         <tr key={index}>
           <td>{budget.date}</td>
           <td>
-            <Link
-              className="budget-item-link"
-              to={`/transactions/${index}`}
-            >
+            <Link className="budget-item-link" to={`/transactions/${index}`}>
               {budget.item_name}
             </Link>
           </td>
         </tr>
-      )
+      );
+      return null;
     }
-  })
+  });
 
-//   let category = budgetTypes.map((budget, index) => {
-//     if (budget.category === "food") {
-//       return (
-//         <p key={index}>
-//           {budget.date} : {budget.item_name}
-//         </p>
-//       );
-//     }
-//   });
+  //   let category = budgetTypes.map((budget, index) => {
+  //     if (budget.category === "food") {
+  //       return (
+  //         <p key={index}>
+  //           {budget.date} : {budget.item_name}
+  //         </p>
+  //       );
+  //     }
+  //   });
 
   return (
     <section>
-     <h1>What's Cooking</h1>
+      <h1>What's Cooking</h1>
       <table className="budget-index">
-        <tbody>
-         {category}
-        </tbody>
+        <tbody>{category}</tbody>
       </table>
     </section>
   );
