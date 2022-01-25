@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 function BudgetNewForm() {
   const URL = process.env.REACT_APP_API_URL;
@@ -92,6 +92,9 @@ function BudgetNewForm() {
         />
         <br />
         <input className="submit-btn" type="submit" />
+      <Link to={`/transactions`}>
+        <button className="back-btn">Back</button>
+      </Link>
       </form>
     </div>
   );
