@@ -34,6 +34,7 @@
   }
   .app-name {
     background: pink;
+    color: rgb(219, 146, 182);
     font-size: 36px;
     margin-top: 20px;
   }
@@ -54,6 +55,7 @@
 
   .home-header {
       font-size: 40px;
+      color: rgb(219, 146, 182);
   }
 
   .home-desc {
@@ -63,6 +65,11 @@
   .begin {
       margin: 10px;
       border-radius: 12px;
+  }
+
+  .budget-review-header {
+      font-size: 26px;
+    color: rgb(219, 146, 182);
   }
 
   .budget-review {

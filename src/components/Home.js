@@ -22,7 +22,7 @@ const Home = () => {
       <br />
       <br />
       <br />
-      <h2>What people are saying about Budget Bae ✨</h2>
+      <h2 className="budget-review-header">What people are saying about Budget Bae ✨</h2>
       <br />
       <section>
         <article className="budget-review">
