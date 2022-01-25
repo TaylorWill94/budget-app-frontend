@@ -23,6 +23,8 @@ const Home = () => {
       <br />
       <br />
       <h2 className="budget-review-header">What people are saying about Budget Bae ✨</h2>
+      <hr />
+      <br />
       <br />
       <section>
         <article className="budget-review">
