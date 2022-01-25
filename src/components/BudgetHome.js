@@ -13,15 +13,14 @@ function BudgetHome() {
       .then((response) => setBudgets(response.data));
   }, [URL]);
 
-  // let transaction = budgets.map((budget, index) => {
-  //   let num = 0;
-  //  if (budget.amount > 1000) {
-  //    num += budget.amount
-  //    return <p style={{color: "green"}} key={index}>{num}</p>
-  //  } else {
-  //    return <p key={index}>{budget.amount}</p>
-  //  }
-  // })
+  const posStyle = {
+    color: "green",
+  };
+
+  const negStyle = {
+    color: "red",
+  };
+
   let bankTotal = 2000;
 
   let total = budgets.map((budget) => budget.amount);
@@ -29,7 +28,18 @@ function BudgetHome() {
   let amount = total.reduce((prev, curr) => Number(prev) + Number(curr), 0);
   // console.log(amount);
   let currentBalance = bankTotal - amount;
-  // console.log(currentBalance);
+  let numBalance = currentBalance.toFixed(2);
+
+  // if (currentBalance > 1000) {
+  //   return <h1 style={posStyle}>{currentBalance}</h1>;
+  // } else {
+  //   return <h1 style={negStyle}>{currentBalance}</h1>;
+  // }
+
+  // let posBalance = <p style={posStyle}>{currentBalance}></p>;
+  // let negBalance = <p style={negStyle}>{currentBalance}></p>;
+  let posBalance = <p style={{ color: "green" }}>{currentBalance}></p>;
+  let negBalance = <p style={{ color: "red" }}>{currentBalance}></p>;
 
   return (
     <div className="budget-index">
@@ -39,34 +49,19 @@ function BudgetHome() {
         <br />
         Budget Total: ${amount.toFixed(2)}
         <br />
-        Current Balance: ${currentBalance.toFixed(2)}
+        Current Balance:{" "}
+      {
+         numBalance  > 1000 ? 
+        <p style={{ color: "green" }}>${numBalance}</p> :
+        <p style={{ color: "white" }}>${numBalance}</p>
+      }
         <br />
         <Link to="/categories">
           <button className="nav-items">food</button>
         </Link>
         <button className="nav-items">clothing</button>
         <button className="nav-items">misc</button>
-        {/* // Trying to add all budget amounts together to get a total */}
-        {/* {budgets.map(budget => { 
-            return <p>{budget.amount}</p>
-          })} */}
-        {/* {budgets.map((budget, index) => {
-          let num = 0;
-         if (budget.amount > 1000) {
-           num += budget.amount
-           return <p style={{color: "green"}} key={index}>{num}</p>
-         } else {
-           return <p key={index}>{budget.amount}</p>
-         }
-        })} */}
       </h1>
-      {/* {budgets.map((budget, index) => {
-          let num = 0;
-         if (budget.amount > 100) {
-           num += budget.amount
-           return <p style={{color: "green"}} key={index}>{num}</p>
-         }
-        })} */}
       <table>
         <tbody>
           {budgets.map((budget, index) => {

@@ -12,7 +12,7 @@ function Categories({ index }) {
       .then((response) => setBudgetTypes(response.data));
   }, [URL]);
 
-  let category = budgetTypes.map((budget, index) => {
+  let foodCategory = budgetTypes.map((budget, index) => {
     if (budget.category === "food") {
       return (
         <tr key={index}>
@@ -42,7 +42,7 @@ function Categories({ index }) {
     <section className="new-budget">
       <h1 className="food-header">What's Cooking 🍛</h1>
       <table className="budget-index">
-        <tbody>{category}</tbody>
+        <tbody>{foodCategory}</tbody>
       </table>
     </section>
   );

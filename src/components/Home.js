@@ -48,6 +48,9 @@ const Home = () => {
         <br />
         <br />
         <h2 className="budget-review-header">Grow with Budget Bae ✨</h2>
+        <br />
+        <hr />
+        <br />
         <p className="home-desc">
           Keep track of your finances while staying within budget.
         </p>
