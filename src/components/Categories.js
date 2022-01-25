@@ -24,8 +24,8 @@ function Categories({ index }) {
           </td>
         </tr>
       );
-      return null;
     }
+    return null;
   });
 
   //   let category = budgetTypes.map((budget, index) => {
