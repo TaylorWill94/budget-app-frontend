@@ -13,14 +13,6 @@ function BudgetHome() {
       .then((response) => setBudgets(response.data));
   }, [URL]);
 
-  const posStyle = {
-    color: "green",
-  };
-
-  const negStyle = {
-    color: "red",
-  };
-
   let bankTotal = 2000;
 
   let total = budgets.map((budget) => budget.amount);
@@ -36,11 +28,6 @@ function BudgetHome() {
   //   return <h1 style={negStyle}>{currentBalance}</h1>;
   // }
 
-  // let posBalance = <p style={posStyle}>{currentBalance}></p>;
-  // let negBalance = <p style={negStyle}>{currentBalance}></p>;
-  let posBalance = <p style={{ color: "green" }}>{currentBalance}></p>;
-  let negBalance = <p style={{ color: "red" }}>{currentBalance}></p>;
-
   return (
     <div className="budget-index">
       <h2 className="budget-home-intro">View your budget in one place.</h2>
@@ -50,11 +37,11 @@ function BudgetHome() {
         Budget Total: ${amount.toFixed(2)}
         <br />
         Current Balance:{" "}
-      {
-         numBalance  > 1000 ? 
-        <p style={{ color: "green" }}>${numBalance}</p> :
-        <p style={{ color: "white" }}>${numBalance}</p>
-      }
+        {numBalance > 1000 ? (
+          <p style={{ color: "green" }}>${numBalance}</p>
+        ) : (
+          <p style={{ color: "white" }}>${numBalance}</p>
+        )}
         <br />
         <Link to="/categories">
           <button className="nav-items">food</button>
