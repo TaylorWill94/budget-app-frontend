@@ -21,18 +21,25 @@ function BudgetHome() {
   //    return <p key={index}>{budget.amount}</p>
   //  }
   // })
-
+  let bankTotal = 2000;
+  
   let total = budgets.map((budget) => budget.amount);
   // console.log(total);
   let amount = total.reduce((prev, curr) => Number(prev) + Number(curr), 0);
-  console.log(amount);
+  // console.log(amount);
+  let currentBalance = bankTotal - amount;
+  // console.log(currentBalance);
 
 
   return (
     <div className="budget-index">
       <h2 className="budget-home-intro">View your budget in one place.</h2>
       <h1 className="bank-total">
-        Bank Account Total: ${amount.toFixed(2)}
+        Bank Starting Balance: ${bankTotal.toFixed(2)}
+        <br />
+        Budget Total: ${amount.toFixed(2)}
+        <br />
+        Current Balance: ${currentBalance.toFixed(2)}
         {/* // Trying to add all budget amounts together to get a total */}
         {/* {budgets.map(budget => { 
             return <p>{budget.amount}</p>

@@ -629,7 +629,7 @@
       }
       .app-name {
           background: pink;
-          font-size: 36px;
+          font-size: 40px;
       }
       .nav-items {
         background: pink;
@@ -761,7 +761,7 @@
       }
       .app-name {
           background: pink;
-          font-size: 36px;
+          font-size: 40px;
       }
       .nav-items {
         background: pink;
@@ -778,6 +778,10 @@
       }
       .begin {
           margin: 10px;
+          transition-duration: 0.4s;
+      }
+      .begin:hover {
+          background: white;
       }
       .budget-index {
         padding: 20%;
@@ -894,7 +898,7 @@
       }
       .app-name {
           background: pink;
-          font-size: 36px;
+          font-size: 46px;
       }
       .nav-items {
         background: pink;
