@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import Budget from "./Budget";
 
 function BudgetHome() {
@@ -22,14 +23,13 @@ function BudgetHome() {
   //  }
   // })
   let bankTotal = 2000;
-  
+
   let total = budgets.map((budget) => budget.amount);
   // console.log(total);
   let amount = total.reduce((prev, curr) => Number(prev) + Number(curr), 0);
   // console.log(amount);
   let currentBalance = bankTotal - amount;
   // console.log(currentBalance);
-
 
   return (
     <div className="budget-index">
@@ -40,6 +40,12 @@ function BudgetHome() {
         Budget Total: ${amount.toFixed(2)}
         <br />
         Current Balance: ${currentBalance.toFixed(2)}
+        <br />
+        <Link to="/categories">
+          <button className="nav-items">food</button>
+        </Link>
+        <button className="nav-items">clothing</button>
+        <button className="nav-items">misc</button>
         {/* // Trying to add all budget amounts together to get a total */}
         {/* {budgets.map(budget => { 
             return <p>{budget.amount}</p>

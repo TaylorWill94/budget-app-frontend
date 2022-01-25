@@ -7,6 +7,7 @@ import BudgetDetails from "./components/BudgetDetails";
 import BudgetNewForm from "./components/BudgetNewForm";
 import BudgetEditForm from "./components/BudgetEditForm";
 import Footer from "./components/Footer";
+import Categories from "./components/Categories";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/transactions/:index" element={<BudgetDetails />} />
         <Route path="/transactions/new" element={<BudgetNewForm />} />
         <Route path="/transactions/:index/edit" element={<BudgetEditForm />} />
+        <Route path="/categories" element={<Categories />} />
       </Routes>
       <Footer />
     </div>
