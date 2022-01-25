@@ -12,6 +12,24 @@ function Categories({ index }) {
       .then((response) => setBudgetTypes(response.data));
   }, [URL]);
 
+  let category = budgetTypes.map((budget, index) => {
+    if (budget.category === "food") {
+      return (
+        <tr key={index}>
+          <td>{budget.date}</td>
+          <td>
+            <Link
+              className="budget-item-link"
+              to={`/transactions/${index}`}
+            >
+              {budget.item_name}
+            </Link>
+          </td>
+        </tr>
+      )
+    }
+  })
+
 //   let category = budgetTypes.map((budget, index) => {
 //     if (budget.category === "food") {
 //       return (
@@ -27,23 +45,7 @@ function Categories({ index }) {
      <h1>What's Cooking</h1>
       <table className="budget-index">
         <tbody>
-          {budgetTypes.map((budget, index) => {
-            if (budget.category === "food") {
-              return (
-                <tr key={index}>
-                  <td>{budget.date}</td>
-                  <td>
-                    <Link
-                      className="budget-item-link"
-                      to={`/transactions/${index}`}
-                    >
-                      {budget.item_name}
-                    </Link>
-                  </td>
-                </tr>
-              );
-            }
-          })}
+         {category}
         </tbody>
       </table>
     </section>
