@@ -138,7 +138,8 @@
     background-color: pink;
   }
   .edit-budget-btn {
-    padding: 10px;
+    padding: 15px;
+    border-radius: 12px;
   }
   .new-budget {
     display: grid;
@@ -320,7 +321,8 @@
     background-color: pink;
   }
   .edit-budget-btn {
-    padding: 10px;
+    padding: 20px;
+    border-radius: 12px;
   }
   .new-budget {
     text-align: center;
@@ -490,7 +492,8 @@
     background-color: pink;
   }
   .edit-budget-btn {
-    padding: 10px;
+    padding: 20px;
+    border-radius: 12px;
   }
   .new-budget {
     text-align: center;
@@ -650,9 +653,7 @@
   .budget-item-link {
     background-color: pink;
   }
-  .edit-budget-btn {
-    padding: 10px;
-  }
+
   .new-budget {
     text-align: center;
     grid-column: 2;
@@ -693,6 +694,11 @@
     text-align: center;
     padding: 10px;
     padding-top: 10%;
+  }
+
+  .edit-budget-btn {
+    padding: 20px;
+    border-radius: 12px;
   }
 
   .back-btn {
@@ -833,6 +839,11 @@
     text-align: center;
     padding: 10px;
     padding-top: 10%;
+  }
+
+  .edit-budget-btn {
+    padding: 20px;
+    border-radius: 12px;
   }
 
   .back-btn {
@@ -977,6 +988,11 @@
     text-align: center;
     padding: 10px;
     padding-top: 10%;
+  }
+
+  .edit-budget-btn {
+    padding: 20px;
+    border-radius: 12px;
   }
 
   .back-btn {
@@ -1137,6 +1153,12 @@
     text-align: center;
     padding: 10px;
     padding-top: 10%;
+    font-size: 30px;
+  }
+
+  .edit-budget-btn {
+    padding: 20px;
+    border-radius: 12px;
   }
 
   .back-btn {
@@ -1181,7 +1203,7 @@
     width: 20%;
     border-radius: 12px;
   }
-  
+
   /* CATEGORY STYLING */
 
   .food-back-btn {
@@ -1196,7 +1218,7 @@
   }
 
   .food-back-btn:hover {
-      background: white;
+    background: white;
   }
 
   /* FOOTER STYLING */
