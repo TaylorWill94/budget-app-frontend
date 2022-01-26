@@ -226,16 +226,19 @@
   }
 
   .back-details-btn {
-    padding: 20px;
+    padding: 25px;
     margin: 10px;
+    border-radius: 12px;
   }
   .edit-details-btn {
-    padding: 20px;
+    padding: 25px;
     margin: 10px;
+    border-radius: 12px;
   }
   .delete-budget-btn {
-    padding: 20px;
+    padding: 25px;
     margin: 10px;
+    border-radius: 12px;
   }
 
   .budget-details-options {
