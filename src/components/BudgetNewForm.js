@@ -27,16 +27,17 @@ function BudgetNewForm() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    axios.post(`${URL}/transactions`, newBudget).then(() => navigate("/transactions"));
+    axios
+      .post(`${URL}/transactions`, newBudget)
+      .then(() => navigate("/transactions"));
   };
 
   return (
     <div className="new-budget">
       <h1 className="new-budget-header">Add Expense</h1>
+      <br />
       <form className="new-budget-form" onSubmit={handleSubmit}>
-        <label htmlFor="item_name">
-          Item Name
-        </label>
+        <label htmlFor="item_name">Item Name</label>
         <input
           id="item_name"
           type="text"
@@ -46,9 +47,7 @@ function BudgetNewForm() {
           required
         />
         <br />
-        <label htmlFor="category">
-          Category
-        </label>
+        <label htmlFor="category">Category</label>
         <input
           id="category"
           type="text"
@@ -57,9 +56,7 @@ function BudgetNewForm() {
           placeholder="Category"
         />
         <br />
-        <label htmlFor="date">
-          Date
-        </label>
+        <label htmlFor="date">Date</label>
         <input
           id="date"
           type="text"
@@ -68,9 +65,7 @@ function BudgetNewForm() {
           placeholder="January 23rd, 2022"
         />
         <br />
-        <label htmlFor="amount">
-          Amount
-        </label>
+        <label htmlFor="amount">Amount</label>
         <input
           id="amount"
           name="amount"
@@ -79,10 +74,8 @@ function BudgetNewForm() {
           onChange={handleChange}
           placeholder="Amount"
         />
-         <br />
-        <label htmlFor="from">
-          From
-        </label>
+        <br />
+        <label htmlFor="from">From</label>
         <input
           id="from"
           type="text"
@@ -91,10 +84,11 @@ function BudgetNewForm() {
           placeholder="From"
         />
         <br />
+        <br />
         <input className="edit-submit-btn" type="submit" />
-      <Link to={`/transactions`}>
-        <button className="back-btn">Back</button>
-      </Link>
+        <Link to={`/transactions`}>
+          <button className="back-btn">Back</button>
+        </Link>
       </form>
     </div>
   );

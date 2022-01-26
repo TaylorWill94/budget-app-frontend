@@ -47,6 +47,11 @@
     margin-left: 10px;
     border-radius: 12px;
     width: 100px;
+    transition-duration: 0.4s;
+  }
+
+  .nav-items:hover {
+    background: white;
   }
 
   .acct-balance {
@@ -56,6 +61,11 @@
     font-size: 20px;
     font-family: "Dongle", sans-serif;
     width: 20%;
+    transition-duration: 0.4s;
+  }
+
+  .acct-balance:hover {
+    border: white;
   }
 
   .home {
@@ -76,6 +86,8 @@
   .begin {
     margin: 10px;
     border-radius: 12px;
+    width: 50%;
+    padding: 15px;
     transition-duration: 0.4s;
   }
 
@@ -173,11 +185,29 @@
     border-radius: 12px;
   }
 
-  .back-btn {
-    padding: 25px;
-    margin: 10px;
-    border-radius: 12px;
-  }
+  
+ .back-btn {
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  background: pink;
+  transition-duration: 0.4s;
+}
+
+.back-btn:hover {
+  background: white;
+}
+
+.edit-submit-btn {
+  padding: 20px;
+  border-radius: 12px;
+  background: pink;
+  transition-duration: 0.4s;
+}
+
+.edit-submit-btn:hover {
+  background: white;
+}
 
   /* // BudgetEditForm Styling */
 
@@ -189,13 +219,6 @@
     padding: 10px;
     padding-top: 10%;
   }
-
-  .edit-submit-btn {
-    border-radius: 12px;
-    width: 100px;
-    padding: 20px;
-  }
-
 
   .budget-edit-form-header {
     font-size: 34px;
@@ -227,19 +250,36 @@
   }
 
   .back-details-btn {
-    padding: 25px;
+    padding: 20px;
     margin: 10px;
     border-radius: 12px;
+    background: pink;
+    transition-duration: 0.4s;
+  }
+
+  .back-details-btn:hover {
+    background: white;
   }
   .edit-details-btn {
-    padding: 25px;
+    padding: 20px;
     margin: 10px;
     border-radius: 12px;
+    background: pink;
+    transition-duration: 0.4s;
+  }
+  .edit-details-btn:hover {
+    background: white;
   }
   .delete-budget-btn {
-    padding: 25px;
+    padding: 20px;
     margin: 10px;
     border-radius: 12px;
+    background: pink;
+    transition-duration: 0.4s;
+  }
+
+  .delete-budget-btn:hover {
+    background: white;
   }
 
   .budget-details-options {
@@ -285,6 +325,11 @@
     border-radius: 12px;
     width: 20%;
     padding: 10px;
+    transition-duration: 0.4s;
+  }
+
+  .nav-items:hover {
+    background: white;
   }
 
   .acct-balance {
@@ -294,6 +339,11 @@
     font-size: 20px;
     font-family: "Dongle", sans-serif;
     width: 20%;
+    transition-duration: 0.4s;
+  }
+
+  .acct-balance:hover {
+    border: white;
   }
 
   .home {
@@ -369,9 +419,35 @@
     padding-top: 10%;
   }
 
+  .budget-edit-form {
+    font-size: 22px;
+  }
+
   .back-btn {
     padding: 10px;
     margin-bottom: 10px;
+    border-radius: 12px;
+    background: pink;
+    width: 15%;
+    transition-duration: 0.4s;
+  }
+
+  .back-btn:hover {
+    background: white;
+  }
+
+  .edit-submit-btn {
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    border-radius: 12px;
+    width: 15%;
+    background: pink;
+    transition-duration: 0.4s;
+  }
+
+  .edit-submit-btn:hover {
+    background: white;
   }
   .budget-edit-form-header {
     font-size: 34px;
@@ -396,14 +472,37 @@
   .back-details-btn {
     padding: 10px;
     margin: 10px;
+    width: 20%;
+    border-radius: 12px;
+    background: pink;
+    transition-duration: 0.4s;
+  }
+
+  .back-details-btn:hover {
+    background: white;
   }
   .edit-details-btn {
     padding: 10px;
     margin: 10px;
+    width: 20%;
+    border-radius: 12px;
+    background: pink;
+    transition-duration: 0.4s;
+  }
+  .edit-details-btn:hover {
+    background: white;
   }
   .delete-budget-btn {
     padding: 10px;
     margin: 10px;
+    width: 20%;
+    border-radius: 12px;
+    background: pink;
+    transition-duration: 0.4s;
+  }
+
+  .delete-budget-btn:hover {
+    background: white;
   }
 
   /* FOOTER STYLING */
@@ -446,15 +545,25 @@
     width: 20%;
     border-radius: 12px;
     padding: 10px;
+    transition-duration: 0.4s;
+  }
+
+  .nav-items:hover {
+    background: white;
   }
 
   .acct-balance {
     margin-left: 20%;
     text-align: center;
     background: pink;
-    font-size: 20px;
+    font-size: 25px;
     font-family: "Dongle", sans-serif;
     width: 20%;
+    transition-duration: 0.4s;
+  }
+
+  .acct-balance:hover {
+    border: white;
   }
 
   .home {
@@ -511,6 +620,10 @@
     /* EDIT FORM STYLING */
   }
 
+  .new-budget-form {
+    font-size: 25px;
+  }
+
   .food-budget {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
@@ -541,12 +654,37 @@
     padding-top: 10%;
   }
 
-  .back-btn {
-    padding: 10px;
+  .edit-submit-btn {
+    padding: 20px;
     margin-bottom: 10px;
+    margin-left: 30px;
+    border-radius: 12px;
+    width: 15%;
+    background: pink;
+    transition-duration: 0.4s;
   }
+
+  .edit-submit-btn:hover {
+    background: white;
+  }
+
+  .back-btn {
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    background: pink;
+    transition-duration: 0.4s;
+  }
+  .back-btn:hover {
+    background: white;
+  }
+
   .budget-edit-form-header {
     font-size: 34px;
+  }
+
+  .budget-edit-form {
+    font-size: 25px;
   }
 
   /* BUDGET DETAILS STYLING */
@@ -562,20 +700,43 @@
   }
 
   .budget-info {
-    font-size: 24px;
+    font-size: 26px;
   }
 
   .back-details-btn {
-    padding: 10px;
+    padding: 15px;
     margin: 10px;
+    width: 20%;
+    border-radius: 12px;
+    background: pink;
+    transition-duration: 0.4s;
+  }
+
+  .back-details-btn:hover {
+    background: white;
   }
   .edit-details-btn {
-    padding: 10px;
+    padding: 15px;
     margin: 10px;
+    width: 20%;
+    border-radius: 12px;
+    background: pink;
+    transition-duration: 0.4s;
+  }
+  .edit-details-btn:hover {
+    background: white;
   }
   .delete-budget-btn {
-    padding: 10px;
+    padding: 15px;
     margin: 10px;
+    width: 20%;
+    border-radius: 12px;
+    background: pink;
+    transition-duration: 0.4s;
+  }
+
+  .delete-budget-btn:hover {
+    background: white;
   }
 
   /* FOOTER STYLING */
@@ -730,16 +891,39 @@
   }
 
   .back-details-btn {
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
+    width: 20%;
+    border-radius: 12px;
+    background: pink;
+    transition-duration: 0.4s;
+  }
+
+  .back-details-btn:hover {
+    background: white;
   }
   .edit-details-btn {
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
+    width: 20%;
+    border-radius: 12px;
+    background: pink;
+    transition-duration: 0.4s;
+  }
+  .edit-details-btn:hover {
+    background: white;
   }
   .delete-budget-btn {
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
+    width: 20%;
+    border-radius: 12px;
+    background: pink;
+    transition-duration: 0.4s;
+  }
+
+  .delete-budget-btn:hover {
+    background: white;
   }
 
   /* FOOTER STYLING */
@@ -775,9 +959,22 @@
     background: pink;
     margin-bottom: 10px;
     font-family: "Dongle", sans-serif;
-    font-size: 18px;
+    font-size: 22px;
     padding: 10px;
+    transition-duration: 0.4s;
   }
+
+  .nav-items:hover {
+    background: white;
+  }
+  .acct-balance {
+    font-size: 25px;
+    transition-duration: 0.4s;
+  }
+  .acct-balance:hover {
+    border: white;
+  }
+
   .home {
     grid-column: 2;
     text-align: center;
@@ -830,6 +1027,10 @@
     /* EDIT FORM STYLING */
   }
 
+  .new-budget-form {
+    font-size: 30px;
+  }
+
   input {
     padding: 10px;
     margin: 10px;
@@ -867,24 +1068,73 @@
   }
 
   .budget-details-header {
-    font-size: 34px;
+    font-size: 36px;
   }
 
   .budget-info {
-    font-size: 24px;
+    font-size: 28px;
   }
 
   .back-details-btn {
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
+    width: 20%;
+    border-radius: 12px;
+    background: pink;
+    transition-duration: 0.4s;
+  }
+
+  .back-details-btn:hover {
+    background: white;
   }
   .edit-details-btn {
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
+    width: 20%;
+    border-radius: 12px;
+    background: pink;
+    transition-duration: 0.4s;
+  }
+  .edit-details-btn:hover {
+    background: white;
   }
   .delete-budget-btn {
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
+    width: 20%;
+    border-radius: 12px;
+    background: pink;
+    transition-duration: 0.4s;
+  }
+
+  .delete-budget-btn:hover {
+    background: white;
+  }
+
+  .back-btn {
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    background: pink;
+    transition-duration: 0.4s;
+  }
+
+  .back-btn:hover {
+    background: white;
+  }
+
+  .edit-submit-btn {
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    border-radius: 12px;
+    width: 15%;
+    background: pink;
+    transition-duration: 0.4s;
+  }
+
+  .edit-submit-btn:hover {
+    background: white;
   }
 
   /* FOOTER STYLING */
@@ -920,10 +1170,24 @@
   .nav-items {
     background: pink;
     margin-bottom: 10px;
+    padding: 20px;
     font-family: "Dongle", sans-serif;
     font-size: 22px;
     width: 20%;
     border-radius: 12px;
+    transition-duration: 0.4s;
+  }
+
+  .nav-items:hover {
+    background: white;
+  }
+
+  .acct-balance {
+    font-size: 25px;
+    transition-duration: 0.4s;
+  }
+  .acct-balance:hover {
+    border: white;
   }
 
   .home {
@@ -938,6 +1202,8 @@
   }
 
   .begin {
+    padding: 20px;
+    width: 25%;
     margin: 10px;
     transition-duration: 0.4s;
   }
@@ -1007,6 +1273,33 @@
     font-size: 34px;
   }
 
+  .edit-submit-btn {
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    border-radius: 12px;
+    width: 15%;
+    background: pink;
+    transition-duration: 0.4s;
+  }
+
+  .edit-submit-btn:hover {
+    background: white;
+  }
+
+  .back-btn {
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    width: 15%;
+    background: pink;
+    transition-duration: 0.4s;
+  }
+
+  .back-btn:hover {
+    background: white;
+  }
+
   /* BUDGET DETAILS STYLING */
   .budget-details {
     grid-column: 2;
@@ -1024,16 +1317,37 @@
   }
 
   .back-details-btn {
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
+    width: 20%;
+    border-radius: 12px;
+    background: pink;
+    transition-duration: 0.4s;
+  }
+  .back-details-btn:hover {
+    background: white;
   }
   .edit-details-btn {
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
+    width: 20%;
+    border-radius: 12px;
+    background: pink;
+    transition-duration: 0.4s;
+  }
+  .edit-details-btn:hover {
+    background: white;
   }
   .delete-budget-btn {
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
+    width: 20%;
+    border-radius: 12px;
+    background: pink;
+    transition-duration: 0.4s;
+  }
+  .delete-budget-btn:hover {
+    background: white;
   }
 
   /* FOOTER STYLING */
@@ -1070,8 +1384,21 @@
     margin-bottom: 10px;
     font-family: "Dongle", sans-serif;
     font-size: 18px;
-    padding: 10px;
+    padding: 20px;
+    transition-duration: 0.4s;
   }
+  .nav-items:hover {
+    background: white;
+  }
+
+  .acct-balance {
+    font-size: 35px;
+    transition-duration: 0.4s;
+  }
+  .acct-balance:hover {
+    border: white;
+  }
+
   .home {
     grid-column: 2;
     text-align: center;
@@ -1126,6 +1453,10 @@
   .budget-item-link {
     background-color: pink;
   }
+  .new-budget-header {
+    font-size: 40px;
+  }
+
   .edit-budget-btn {
     padding: 10px;
   }
@@ -1145,8 +1476,9 @@
   /* EDIT FORM STYLING */
 
   input {
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
+    font-weight: bold;
   }
   .submit-btn {
     padding: 10px;
@@ -1166,11 +1498,33 @@
   }
 
   .back-btn {
-    padding: 10px;
+    padding: 20px;
     margin-bottom: 10px;
+    border-radius: 12px;
+    background: pink;
+    transition-duration: 0.4s;
   }
+
+  .back-btn:hover {
+    background: white;
+  }
+
+  .edit-submit-btn {
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    border-radius: 12px;
+    width: 15%;
+    background: pink;
+    transition-duration: 0.4s;
+  }
+
+  .edit-submit-btn:hover {
+    background: white;
+  }
+
   .budget-edit-form-header {
-    font-size: 34px;
+    font-size: 40px;
   }
 
   /* BUDGET DETAILS STYLING */
@@ -1182,30 +1536,47 @@
   }
 
   .budget-details-header {
-    font-size: 34px;
-  }
-
-  .budget-info {
     font-size: 40px;
   }
 
+  .budget-info {
+    font-size: 36px;
+  }
+
   .back-details-btn {
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
     width: 20%;
     border-radius: 12px;
+    background: pink;
+    transition-duration: 0.4s;
+  }
+
+  .back-details-btn:hover {
+    background: white;
   }
   .edit-details-btn {
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
     width: 20%;
     border-radius: 12px;
+    background: pink;
+    transition-duration: 0.4s;
+  }
+  .edit-details-btn:hover {
+    background: white;
   }
   .delete-budget-btn {
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
     width: 20%;
     border-radius: 12px;
+    background: pink;
+    transition-duration: 0.4s;
+  }
+
+  .delete-budget-btn:hover {
+    background: white;
   }
 
   /* CATEGORY STYLING */

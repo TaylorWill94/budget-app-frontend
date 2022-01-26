@@ -23,6 +23,7 @@ function BudgetDetails() {
   return (
     <section className="budget-details">
       <h1 className="budget-details-header">Transaction Details</h1>
+      <br />
       <p className="budget-info">Date: {budget.date}</p>
       <p className="budget-info">Item: {budget.item_name}</p>
       <p className="budget-info">Amount: ${budget.amount}</p>

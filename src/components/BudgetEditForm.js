@@ -2,8 +2,6 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 import { Link, useParams, useNavigate } from "react-router-dom";
 
-
-
 function BudgetEditForm() {
   let { index } = useParams();
   const URL = process.env.REACT_APP_API_URL;
@@ -37,6 +35,7 @@ function BudgetEditForm() {
   return (
     <div className="edit-budget">
       <h1 className="budget-edit-form-header">Edit</h1>
+      <br />
       <form className="budget-edit-form" onSubmit={handleSubmit}>
         <label htmlFor="item_name">Item name:</label>
         <input
@@ -89,10 +88,11 @@ function BudgetEditForm() {
           required
         />
         <br />
+        <br />
         <input className="edit-submit-btn" type="submit" />
-      <Link to={`/transactions`}>
-        <button className="back-btn">Back</button>
-      </Link>
+        <Link to={`/transactions`}>
+          <button className="back-btn">Back</button>
+        </Link>
       </form>
     </div>
   );
