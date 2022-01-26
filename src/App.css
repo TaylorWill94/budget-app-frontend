@@ -168,10 +168,9 @@
     margin: 10px;
   }
   .submit-btn {
-    padding: 20px;
+    padding: 25px;
     margin-top: 10px;
     border-radius: 12px;
-    width: 100px;
   }
 
   /* // BudgetEditForm Styling */
@@ -226,17 +225,17 @@
   }
 
   .back-details-btn {
-    padding: 30px;
+    padding: 25px;
     margin: 10px;
     border-radius: 12px;
   }
   .edit-details-btn {
-    padding: 30px;
+    padding: 25px;
     margin: 10px;
     border-radius: 12px;
   }
   .delete-budget-btn {
-    padding: 30px;
+    padding: 25px;
     margin: 10px;
     border-radius: 12px;
   }
