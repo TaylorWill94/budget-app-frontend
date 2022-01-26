@@ -44,6 +44,9 @@ function Categories({ index }) {
       <table className="budget-index">
         <tbody>{foodCategory}</tbody>
       </table>
+      <Link to="/transactions">
+        <button className="food-back-btn">Back</button>
+      </Link>
     </div>
   );
 }

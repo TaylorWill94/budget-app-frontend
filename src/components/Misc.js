@@ -32,6 +32,9 @@ function Misc() {
       <table className="budget-index">
         <tbody>{miscCategory}</tbody>
       </table>
+      <Link to="/transactions">
+        <button className="food-back-btn">Back</button>
+      </Link>
     </div>
   );
 }

@@ -34,6 +34,9 @@ function Clothing() {
       <table className="budget-index">
         <tbody>{clothingCategory}</tbody>
       </table>
+      <Link to="/transactions">
+        <button className="food-back-btn">Back</button>
+      </Link>
     </div>
   );
 }
