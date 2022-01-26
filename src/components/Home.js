@@ -18,9 +18,8 @@ const Home = () => {
         <button className="nav-items begin">Let's begin!</button>
       </Link>
       <br />
+      <br />
      <img src={budget} width='200' alt={budget} />
-      <br />
-      <br />
       <br />
       <br />
       <h2 className="budget-review-header">What people are saying about Budget Bae ✨</h2>

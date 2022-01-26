@@ -22,12 +22,6 @@ function BudgetHome() {
   let currentBalance = bankTotal - amount;
   let numBalance = currentBalance.toFixed(2);
 
-  // if (currentBalance > 1000) {
-  //   return <h1 style={posStyle}>{currentBalance}</h1>;
-  // } else {
-  //   return <h1 style={negStyle}>{currentBalance}</h1>;
-  // }
-
   return (
     <div className="budget-index">
       <h2 className="budget-home-intro">View your budget in one place.</h2>
@@ -37,39 +31,21 @@ function BudgetHome() {
         Budget Total: ${amount.toFixed(2)}
         <br />
         Current Balance:{" "}
-        {
-          (numBalance > 1000) ? 
-          <p style={{ color: "green" }}>${numBalance}</p>
-          : <p style={{ color: "white" }}>${numBalance}</p>
-        }
-        {console.log(typeof {numBalance})}
-        {console.log(typeof numBalance)}
-
-
-        {/* {numBalance > 1000 ? (
+        {numBalance > 1000 ? (
           <p style={{ color: "green" }}>${numBalance}</p>
         ) : (
-          <p style={{ color: "pink" }}>${numBalance}</p>
-        ) : numBalance < 0 ? (
-          <p style={{ color: "red" }}>${numBalance}</p>
-        ) : (
-          null
-        )
-      } */}
-
-        {/* {numBalance < 0 ? (
-          <p style={{ color: "red" }}>${numBalance}</p>
-        ) : ( <p style={{ color: "pink" }}>${numBalance}</p>
-        )} */}
-
+          <p style={{ color: "white" }}>${numBalance}</p>
+        )}
         <br />
         <Link to="/categories">
           <button className="nav-items">food</button>
         </Link>
         <Link to="/clothing">
-        <button className="nav-items">clothing</button>
+          <button className="nav-items">clothing</button>
         </Link>
-        <button className="nav-items">misc</button>
+        <Link to="/misc">
+          <button className="nav-items">misc</button>
+        </Link>
       </h1>
       <table>
         <tbody>

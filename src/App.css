@@ -48,6 +48,16 @@
     border-radius: 12px;
     width: 100px;
   }
+
+  .acct-balance {
+    margin-left: 20%;
+    text-align: center;
+    background: pink;
+    font-size: 20px;
+    font-family: "Dongle", sans-serif;
+    width: 20%;
+  }
+
   .home {
     grid-column: 2;
     text-align: center;
@@ -267,8 +277,20 @@
     margin-left: 10px;
     font-family: "Dongle", sans-serif;
     font-size: 18px;
+    border-radius: 12px;
+    width: 20%;
     padding: 10px;
   }
+
+  .acct-balance {
+    margin-left: 20%;
+    text-align: center;
+    background: pink;
+    font-size: 20px;
+    font-family: "Dongle", sans-serif;
+    width: 20%;
+  }
+
   .home {
     grid-column: 2;
     text-align: center;
@@ -419,6 +441,16 @@
     border-radius: 12px;
     padding: 10px;
   }
+
+  .acct-balance {
+    margin-left: 20%;
+    text-align: center;
+    background: pink;
+    font-size: 20px;
+    font-family: "Dongle", sans-serif;
+    width: 20%;
+  }
+
   .home {
     grid-column: 2;
     text-align: center;
@@ -570,6 +602,16 @@
     border-radius: 12px;
     padding: 10px;
   }
+
+  .acct-balance {
+    margin-left: 20%;
+    text-align: center;
+    background: pink;
+    font-size: 20px;
+    font-family: "Dongle", sans-serif;
+    width: 20%;
+  }
+
   .home {
     grid-column: 2;
     text-align: center;
@@ -1035,12 +1077,16 @@
     grid-column: 2;
     padding: 10px;
     padding-top: 10%;
+  }
 
+  .new-budget-form {
+    font-size: 30px;
+  }
     /* margin: 25%;
           font-size: 16px; */
 
     /* EDIT FORM STYLING */
-  }
+  
 
   input {
     padding: 10px;
@@ -1078,20 +1124,26 @@
   }
 
   .budget-info {
-    font-size: 24px;
+    font-size: 40px;
   }
 
   .back-details-btn {
     padding: 10px;
     margin: 10px;
+    width: 20%;
+    border-radius: 12px;
   }
   .edit-details-btn {
     padding: 10px;
     margin: 10px;
+    width: 20%;
+    border-radius: 12px;
   }
   .delete-budget-btn {
     padding: 10px;
     margin: 10px;
+    width: 20%;
+    border-radius: 12px;
   }
 
   /* FOOTER STYLING */

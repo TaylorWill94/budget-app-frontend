@@ -9,6 +9,7 @@ import BudgetEditForm from "./components/BudgetEditForm";
 import Footer from "./components/Footer";
 import Categories from "./components/Categories";
 import Clothing from "./components/Clothing";
+import Misc from "./components/Misc";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/transactions/:index/edit" element={<BudgetEditForm />} />
         <Route path="/categories" element={<Categories />} />
         <Route path="/clothing" element={<Clothing />} />
+        <Route path="/misc" element={<Misc />} />
       </Routes>
       <Footer />
     </div>
