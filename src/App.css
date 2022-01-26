@@ -169,7 +169,13 @@
   }
   .submit-btn {
     padding: 25px;
-    margin-top: 10px;
+    margin: 10px;
+    border-radius: 12px;
+  }
+
+  .back-btn {
+    padding: 25px;
+    margin: 10px;
     border-radius: 12px;
   }
 
@@ -190,11 +196,7 @@
     padding: 20px;
   }
 
-  .back-btn {
-    padding: 20px;
-    margin-bottom: 10px;
-    border-radius: 12px;
-  }
+
   .budget-edit-form-header {
     font-size: 34px;
     grid-column: 2;
