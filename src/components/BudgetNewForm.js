@@ -91,7 +91,7 @@ function BudgetNewForm() {
           placeholder="From"
         />
         <br />
-        <input className="submit-btn" type="submit" />
+        <input className="edit-submit-btn" type="submit" />
       <Link to={`/transactions`}>
         <button className="back-btn">Back</button>
       </Link>
