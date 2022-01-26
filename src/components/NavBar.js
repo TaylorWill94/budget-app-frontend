@@ -42,7 +42,7 @@ function NavBar() {
         <button className="nav-items">View Budget</button>
       </Link>
       <Link to="/transactions/new">
-        <button className="nav-items">New Budget</button>
+        <button className="nav-items">Add Expense</button>
       </Link>
     </nav>
   );

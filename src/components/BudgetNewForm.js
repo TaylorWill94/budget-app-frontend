@@ -32,7 +32,7 @@ function BudgetNewForm() {
 
   return (
     <div className="new-budget">
-      <h1 className="new-budget-header">New Transaction</h1>
+      <h1 className="new-budget-header">Add Expense</h1>
       <form className="new-budget-form" onSubmit={handleSubmit}>
         <label htmlFor="item_name">
           Item Name
