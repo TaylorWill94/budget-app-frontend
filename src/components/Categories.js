@@ -40,7 +40,9 @@ function Categories({ index }) {
 
   return (
     <div className="food-budget">
-      <h1 className="food-header">What's Cooking 🍛</h1>
+      <h1 className="food-header">Food</h1>
+      <br />
+      <br />
       <table className="budget-index">
         <tbody>{foodCategory}</tbody>
       </table>

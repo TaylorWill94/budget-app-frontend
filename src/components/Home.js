@@ -19,6 +19,7 @@ const Home = () => {
       </Link>
       <br />
       <br />
+      <br />
      <img className="budget-logo" src={budget} width='200' alt={budget} />
       <br />
       <br />
