@@ -66,7 +66,9 @@ function BudgetHome() {
         <Link to="/categories">
           <button className="nav-items">food</button>
         </Link>
+        <Link to="/clothing">
         <button className="nav-items">clothing</button>
+        </Link>
         <button className="nav-items">misc</button>
       </h1>
       <table>
