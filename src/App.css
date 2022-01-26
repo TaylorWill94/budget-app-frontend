@@ -185,29 +185,28 @@
     border-radius: 12px;
   }
 
-  
- .back-btn {
-  padding: 20px;
-  margin-bottom: 10px;
-  border-radius: 12px;
-  background: pink;
-  transition-duration: 0.4s;
-}
+  .back-btn {
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    background: pink;
+    transition-duration: 0.4s;
+  }
 
-.back-btn:hover {
-  background: white;
-}
+  .back-btn:hover {
+    background: white;
+  }
 
-.edit-submit-btn {
-  padding: 20px;
-  border-radius: 12px;
-  background: pink;
-  transition-duration: 0.4s;
-}
+  .edit-submit-btn {
+    padding: 20px;
+    border-radius: 12px;
+    background: pink;
+    transition-duration: 0.4s;
+  }
 
-.edit-submit-btn:hover {
-  background: white;
-}
+  .edit-submit-btn:hover {
+    background: white;
+  }
 
   /* // BudgetEditForm Styling */
 
@@ -284,6 +283,18 @@
 
   .budget-details-options {
     grid-column: 2;
+  }
+
+  .food-back-btn {
+    padding: 20px;
+    border-radius: 12px;
+    background: pink;
+    margin-left: 30px;
+    transition-duration: 0.4s;
+  }
+
+  .food-back-btn:hover {
+    background: white;
   }
 
   /* FOOTER STYLING */
@@ -402,6 +413,18 @@
     grid-column: 2;
     font-size: 32px;
     color: rgb(219, 146, 182);
+  }
+
+  .food-back-btn {
+    padding: 20px;
+    border-radius: 12px;
+    background: pink;
+    margin-left: 30px;
+    transition-duration: 0.4s;
+  }
+
+  .food-back-btn:hover {
+    background: white;
   }
 
   input {
@@ -591,6 +614,19 @@
     grid-column: 2;
     text-align: center;
   }
+
+  .food-back-btn {
+    padding: 20px;
+    border-radius: 12px;
+    background: pink;
+    margin-left: 30px;
+    transition-duration: 0.4s;
+  }
+
+  .food-back-btn:hover {
+    background: white;
+  }
+
   table {
     background-color: pink;
     padding: 10px;
@@ -805,6 +841,19 @@
     grid-column: 2;
     text-align: center;
   }
+
+  .food-back-btn {
+    padding: 20px;
+    border-radius: 12px;
+    background: pink;
+    margin-left: 30px;
+    transition-duration: 0.4s;
+  }
+
+  .food-back-btn:hover {
+    background: white;
+  }
+
   table {
     background-color: pink;
     padding: 10px;
@@ -999,6 +1048,19 @@
     grid-column: 2;
     text-align: center;
   }
+
+  .food-back-btn {
+    padding: 20px;
+    border-radius: 12px;
+    background: pink;
+    margin-left: 30px;
+    transition-duration: 0.4s;
+  }
+
+  .food-back-btn:hover {
+    background: white;
+  }
+
   table {
     background-color: pink;
     padding: 10px;
@@ -1217,6 +1279,19 @@
     grid-column: 2;
     text-align: center;
   }
+
+  .food-back-btn {
+    padding: 20px;
+    border-radius: 12px;
+    background: pink;
+    margin-left: 30px;
+    transition-duration: 0.4s;
+  }
+
+  .food-back-btn:hover {
+    background: white;
+  }
+
   table {
     background-color: pink;
     padding: 10px;
@@ -1434,6 +1509,19 @@
     grid-column: 2;
     text-align: center;
   }
+
+  .food-back-btn {
+    padding: 20px;
+    border-radius: 12px;
+    background: pink;
+    margin-left: 30px;
+    transition-duration: 0.4s;
+  }
+
+  .food-back-btn:hover {
+    background: white;
+  }
+
   table {
     background-color: pink;
     padding: 10px;
