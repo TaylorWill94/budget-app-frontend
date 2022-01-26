@@ -91,6 +91,15 @@
     margin-right: 25px;
   }
   /* CATEGORIES STYLING */
+
+  .food-budget {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-column: 2;
+    padding: 10px;
+    padding-top: 10%;
+  }
+
   .food-header {
     grid-column: 2;
     font-size: 36px;
@@ -302,6 +311,20 @@
     /* EDIT FORM STYLING */
   }
 
+  .food-budget {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-column: 2;
+    padding: 10px;
+    padding-top: 10%;
+  }
+
+  .food-header {
+    grid-column: 2;
+    font-size: 32px;
+    color: rgb(219, 146, 182);
+  }
+
   input {
     padding: 10px;
     margin: 10px;
@@ -383,6 +406,7 @@
   .app-name {
     background: pink;
     font-size: 36px;
+    padding: 10px;
   }
   .nav-items {
     background: pink;
@@ -390,6 +414,8 @@
     margin-left: 10px;
     font-family: "Dongle", sans-serif;
     font-size: 18px;
+    width: 20%;
+    border-radius: 12px;
     padding: 10px;
   }
   .home {
@@ -433,6 +459,21 @@
           font-size: 16px; */
 
     /* EDIT FORM STYLING */
+  }
+
+  .food-budget {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-column: 1 / 4;
+    padding: 10px;
+    padding-top: 10%;
+  }
+
+  .food-header {
+    grid-column: 2;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(219, 146, 182);
   }
 
   input {
@@ -516,6 +557,7 @@
   .app-name {
     background: pink;
     font-size: 36px;
+    padding: 10px;
   }
   .nav-items {
     background: pink;
@@ -523,6 +565,8 @@
     margin-left: 10px;
     font-family: "Dongle", sans-serif;
     font-size: 18px;
+    width: 20%;
+    border-radius: 12px;
     padding: 10px;
   }
   .home {
@@ -566,6 +610,21 @@
           font-size: 16px; */
 
     /* EDIT FORM STYLING */
+  }
+
+  .food-budget {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-column: 1 / 4;
+    padding: 10px;
+    padding-top: 10%;
+  }
+
+  .food-header {
+    grid-column: 2;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(219, 146, 182);
   }
 
   input {
@@ -779,14 +838,17 @@
   .app-name {
     background: pink;
     font-size: 40px;
+    padding: 10px;
   }
   .nav-items {
     background: pink;
     margin-bottom: 10px;
     font-family: "Dongle", sans-serif;
-    font-size: 18px;
-    padding: 10px;
+    font-size: 22px;
+    width: 20%;
+    border-radius: 12px;
   }
+
   .home {
     grid-column: 2;
     text-align: center;

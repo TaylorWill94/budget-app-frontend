@@ -39,12 +39,12 @@ function Categories({ index }) {
   //   });
 
   return (
-    <section className="new-budget">
+    <div className="food-budget">
       <h1 className="food-header">What's Cooking 🍛</h1>
       <table className="budget-index">
         <tbody>{foodCategory}</tbody>
       </table>
-    </section>
+    </div>
   );
 }
 

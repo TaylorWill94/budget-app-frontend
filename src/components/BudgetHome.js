@@ -37,11 +37,31 @@ function BudgetHome() {
         Budget Total: ${amount.toFixed(2)}
         <br />
         Current Balance:{" "}
-        {numBalance > 1000 ? (
+        {
+          (numBalance > 1000) ? 
+          <p style={{ color: "green" }}>${numBalance}</p>
+          : <p style={{ color: "white" }}>${numBalance}</p>
+        }
+        {console.log(typeof {numBalance})}
+        {console.log(typeof numBalance)}
+
+
+        {/* {numBalance > 1000 ? (
           <p style={{ color: "green" }}>${numBalance}</p>
         ) : (
-          <p style={{ color: "white" }}>${numBalance}</p>
-        )}
+          <p style={{ color: "pink" }}>${numBalance}</p>
+        ) : numBalance < 0 ? (
+          <p style={{ color: "red" }}>${numBalance}</p>
+        ) : (
+          null
+        )
+      } */}
+
+        {/* {numBalance < 0 ? (
+          <p style={{ color: "red" }}>${numBalance}</p>
+        ) : ( <p style={{ color: "pink" }}>${numBalance}</p>
+        )} */}
+
         <br />
         <Link to="/categories">
           <button className="nav-items">food</button>
